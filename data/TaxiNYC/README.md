@@ -1,4 +1,4 @@
-**TaxiBJ** consists of the following **Three** datasets:
+**TaxiNYC** is a benchmark for **Citywide Passenger Pickup/Dropoff Demand Prediction** and it consists of the following **three** datasets:
 
 * NYC2014.h5
 * Meteorology.h5
@@ -9,7 +9,7 @@
 File names: `NYC2014.h5`, which has two following subsets:
 
 * `date`: a list of timeslots, which is associated the **data**. 
-* `data`: a 4D tensor of shape (number_of_timeslots, 2, 15, 5), of which `data[i]` is a 3D tensor of shape (2, 15, 5) at the timeslot `date[i]`, `data[i][0]` is a `15x5` inflow matrix and `data[i][1]` is a `15x5` outflow matrix. 
+* `data`: a 4D tensor of shape (number_of_timeslots, 2, 15, 5), of which `data[i]` is a 3D tensor of shape (2, 15, 5) at the timeslot `date[i]`, `data[i][0]` is a `15x5` pickup matrix and `data[i][1]` is a `15x5` dropoff matrix. 
 
 
 ## Meteorology
