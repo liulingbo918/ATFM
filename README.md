@@ -1,14 +1,37 @@
 # Attentive Crowd Flow Machines
 
-![ACFM](figures/model_arch.png "Model Architecture")
 
-This is a PyTorch implementation of Attentive Crowd Flow Machines in the following paper: \
-Liu, Lingbo, et al. "Attentive Crowd Flow Machines." 2018 ACM Multimedia Conference on Multimedia Conference. ACM, 2018.
+This is a PyTorch implementation of **Attentive Crowd Flow Machines (ACFM)** in ACM Multimedia 2018 and its journal version. ACFM is a a
+unified neural network which can effectively learn the spatial-temporal feature representations of crowd flow with an attention mechanism.
 
-Paper Link: https://arxiv.org/abs/1809.00101
+If you use this code for your research, please cite our papers （[Conference Version](https://dl.acm.org/citation.cfm?id=3240681) and [Journal Version](https://lingboliu.com/ACFM_A_Dynamic_Spatial-Temporal_Network_for_Traffic_Prediction_Journal.pdf)):
+
+```
+@inproceedings{liu2018attentive,
+  title={Attentive Crowd Flow Machines},
+  author={Liu, Lingbo and Zhang, Ruimao and Peng, Jiefeng and Li, Guanbin and Du, Bowen and Lin, Liang},
+  booktitle={2018 ACM Multimedia Conference on Multimedia Conference},
+  pages={1553--1561},
+  year={2018},
+  organization={ACM}
+}
+```
+
+```
+@article{liu2018acfm,
+  title={ACFM：A Dynamic Spatial-Temporal Network for Traffic Prediction},
+  author={Liu, Lingbo and Zhen, Jiajie and  Li, Guanbin and Zhan, Geng and Lin, Liang},
+  year={2018}
+}
+```
 
 ## Requirements
 - torch==0.4.1
+
+## Preprocessing
+**For Crowd Flow Prediction:**  download [TaxiBJ](https://github.com/lucktroy/DeepST/tree/master/data/TaxiBJ/) / [BikeNYC](https://github.com/lucktroy/DeepST/tree/master/data/BikeNYC) and put them into folder  ```data/TaxiBJ``` and ```data/BikeNYC```.
+
+**For Citywide Passenger Demand Prediction (CPDP):**  the dataset of CPDP has been in folder  ```data/TaxiNYC```.
 
 ## Model Training
 ```bash
@@ -22,7 +45,7 @@ python run_bikenyc.py
 python run_taxinyc.py
 ```
 
-## Run the Pre-trained Model
+## Testing
 ```bash
 # TaxiBJ
 python test_taxibj.py
@@ -33,4 +56,5 @@ python test_bikenyc.py
 # TaxiNYC
 python test_taxinyc.py
 ```
+
 
