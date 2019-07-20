@@ -18,10 +18,10 @@ If you use this code for your research, please cite our papers （[Conference Ve
 ```
 
 ```
-@article{liu2018acfm,
+@article{liu2019acfm,
   title={ACFM：A Dynamic Spatial-Temporal Network for Traffic Prediction},
   author={Liu, Lingbo and Zhen, Jiajie and  Li, Guanbin and Zhan, Geng and Lin, Liang},
-  year={2018}
+  year={2019}
 }
 ```
 
