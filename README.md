@@ -19,8 +19,9 @@ If you use this code for your research, please cite our papers （[Conference Ve
 
 ```
 @article{liu2019acfm,
-  title={ACFM：A Dynamic Spatial-Temporal Network for Traffic Prediction},
-  author={Liu, Lingbo and Zhen, Jiajie and  Li, Guanbin and Zhan, Geng and Lin, Liang},
+  title={ACFM: A Dynamic Spatial-Temporal Network for Traffic Prediction},
+  author={Liu, Lingbo and Zhen, Jiajie and Li, Guanbin and Zhan, Geng and Lin, Liang},
+  journal={arXiv preprint arXiv:1909.02902},
   year={2019}
 }
 ```
