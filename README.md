@@ -4,7 +4,7 @@
 This is a PyTorch implementation of **Attentive Crowd Flow Machines (ACFM)** in ACM Multimedia 2018 and its journal version. ACFM is a a
 unified neural network which can effectively learn the spatial-temporal feature representations of crowd flow with an attention mechanism.
 
-If you use this code for your research, please cite our papers （[Conference Version](https://dl.acm.org/citation.cfm?id=3240681) and [Journal Version](https://lingboliu.com/ACFM_A_Dynamic_Spatial-Temporal_Network_for_Traffic_Prediction_Journal.pdf)):
+If you use this code for your research, please cite our papers （[Conference Version](https://dl.acm.org/citation.cfm?id=3240681) and [Journal Version](https://arxiv.org/abs/1909.02902)):
 
 ```
 @inproceedings{liu2018attentive,
