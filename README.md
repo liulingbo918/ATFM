@@ -18,11 +18,11 @@ If you use this code for your research, please cite our papers （[Conference Ve
 ```
 
 ```
-@article{liu2019acfm,
-  title={ACFM: A Dynamic Spatial-Temporal Network for Traffic Prediction},
-  author={Liu, Lingbo and Zhen, Jiajie and Li, Guanbin and Zhan, Geng and Lin, Liang},
-  journal={arXiv preprint arXiv:1909.02902},
-  year={2019}
+@article{liu20120dynamic,
+  title={Dynamic Spatial-Temporal Representation Learning for Traffic Flow Prediction},
+  author={Liu, Lingbo and Zhen, Jiajie and Li, Guanbin and Zhan, Geng and He, Zhaocheng and Du, Bowen and Lin, Liang},
+  journal={IEEE Transactions on Intelligent Transportation Systems},
+  year={2020}
 }
 ```
 
